@@ -1,0 +1,28 @@
+<configuration name="format_cdr.conf" description="Multi Format CDR CURL logger">
+        different paths or servers with different settings, just be sure to use different name for
+ <profiles>
+ <profile name="default">
+  <settings>
+    <param name="format" value="json"/>
+    <!-- Main endpoint for cdrs -->
+    <param name="url" value="http://<url>/xmlcurl/cdr"/>
+    <param name="log-dir" value=""/>
+    <param name="log-b-leg" value="false"/>
+    <param name="prefix-a-leg" value="true"/>
+    <param name="encode" value="true"/>
+    <param name="encode-values" value="false"/>
+  </settings>
+ </profile>
+ <profile name="debug_profile">
+  <settings>
+    <param name="format" value="json"/>
+    <!-- my test endpoing for doing tests, temp one will run as contaiiner -->
+    <param name="url" value="http://<debug_cdr_api_ip>:<port>/cdr"/>
+    <param name="log-b-leg" value="false"/>
+    <param name="prefix-a-leg" value="true"/>
+    <param name="encode" value="true"/>
+    <param name="encode-values" value="false"/>
+  </settings>
+ </profile>
+ </profiles>
+</configuration>
