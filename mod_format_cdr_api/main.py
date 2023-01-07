@@ -70,7 +70,6 @@ def get_cdrs():
         for k, v in data.items():
             if type(v) is dict:
                 for a, b in v.items():
-                    #print(a,": ",  b)
                     f.write(str(a) + ": " +  str(b) + "\n")
         f.write('\n\n')
 
