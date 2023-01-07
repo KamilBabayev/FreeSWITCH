@@ -94,6 +94,7 @@ sip_cid_type: pid
 sip_allow: INVITE, BYE, REGISTER, ACK, OPTIONS, CANCEL, SUBSCRIBE, NOTIFY, PRACK, INFO, REFER, UPDATE, PUBLISH, MESSAGE
 sip_req_params: user=phone;transport=udp
 
+< redacted >
 ```
 
 storing data in SQLite or or DB can be added for more serious impementation
