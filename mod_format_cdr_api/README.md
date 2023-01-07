@@ -57,7 +57,7 @@ duration:  23
 billsec:  21
 ```
 
-cdr.txt  in current dir will contains full cdr data
+**cdr.txt** in current dir will contains full cdr data
 ```
 FULL CDR:
 
