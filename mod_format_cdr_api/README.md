@@ -1,5 +1,6 @@
 # Simple api will be started to accept posted cdr json data from freeswitch side
 
+
 tool.sh will build and run container
 ```
 server:~# bash tool.sh
@@ -98,3 +99,5 @@ sip_req_params: user=phone;transport=udp
 ```
 
 storing data in SQLite or or DB can be added for more serious impementation
+
+P.S. This was developed quickly for cdr posts debugging without refactoring.
