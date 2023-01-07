@@ -14,8 +14,8 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://172.17.0.2:5000
 Press CTRL+C to quit
 uuid:  616ad3ed-dffe-4d31-9638-85a961718ea6
-sip_from_user:  554409715
-domain_name: " c2flexy.atl.az
+sip_from_user:  555555555
+domain_name: " c2sipsystem.demo.lab
 tenant_id:  2
 start_stamp:  2023-01-07 16:04:42
 profile_start_stamp:  2023-01-07 16:04:42
