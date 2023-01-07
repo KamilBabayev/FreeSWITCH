@@ -2,7 +2,7 @@
 
 tool.sh will build and run container
 ```
-bash tool.sh
+server:~# bash tool.sh
 Successfully built 52c83bfc84ea
 Successfully tagged demo_cdr_web_api:latest
 c49f7ce8c1bda629835bc158a0d9d44baacfa1f946a66dc91298def0ee775099
